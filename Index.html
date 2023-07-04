@@ -3,9 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HomePage</title>
 </head>
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+    body{
+        margin: 0px;
+        background-image: url('../images/bg2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .navbar {
+        text-align: center;
+        margin-top: 32px; 
+     
+    }
+
+    .navbar a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 25px;
+        margin-right: 25px ;
+        padding-bottom: 7px; 
+
+    }
+
+    .navbar a:hover {
+        border-bottom: 1px solid whitesmoke;
+        transition: all 0.5s ease;
+        font-size: 18px; 
+    }
+    .logo{
+        height: 30px;
+        float: left;
+        margin-left: 23px;
+        margin-top: -25px;
+        justify-items: center;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .site-name, site-sub-name{
+        float: left;
+        margin-left: 8px;
+        margin-top: -20px;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1.5px;
+    }
+    .site-name{
+        color: #eff0f2
+    }
+    .site-sub-name{
+        color: #405138;
+        padding-left: 5px;
+    }
+    .login-btn{
+        text-decoration: none;
+        float: right;
+        margin-right: 29px;
+        margin-top: -25px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        border: 1.5px solid whitesmoke;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline:none;
+        text-align: center;
+        }
+        .signup-btn{
+            margin-right: 50px;
+        }
+        .log-btn{
+            margin-right: 10px;
+        }
+        .login-btn:hover{
+            background-color: #f2f2f2;
+            color: #405138;
+            transition: all 0.8s ease;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+  
+</style>
 <body>
-    <h1>Home Page</h1>
+    <div class="navbar">
+       
+        <a href="#">EXPLORE</a>
+        <a href="#">BLOGS</a>
+        <a href="#">PLACES</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SHOP</a>
+    </div>
+    <img src="logo.png" alt="logo" class="logo">
+    <p class="site-name">VENTURE<span class="site-sub-name">VIBES</span></p>
+
+    <a href="#" class="login-btn signup-btn">SIGN UP</a>
+    <a href="#" class="login-btn log-btn">LOG IN</a>
+    
+
+      
 </body>
 </html>

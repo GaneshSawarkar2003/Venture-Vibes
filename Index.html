@@ -8,6 +8,8 @@
 <style>
     
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins:wght@100;200;300;500&display=swap');
 
     body{
         margin: 0px;
@@ -16,6 +18,7 @@
         background-repeat: no-repeat;
         height: 100vh;
     }
+   
     .navbar {
         text-align: center;
         margin-top: 32px; 
@@ -140,33 +143,82 @@
             background-position: 95%;
             background-size: 30px;
         }
-    
-            
+        .intro{
+            margin-top: 400px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+
+        }
+        .itnro-caption{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+        }
+        hr{
+            width: 18%;
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .award-of-year{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            margin-top: 60px;
+        }
+        .awards{
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 400;
+        }
+        .year{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+        }
 </style>
 <body>
-    <div class="navbar">
-       
-        <a href="#">EXPLORE</a>
-        <a href="#">BLOGS</a>
-        <a href="#">PLACES</a>
-        <a href="#">ABOUT</a>
-        <a href="#">SHOP</a>
+    <div class="header-section">
+        <div class="navbar">
+        
+            <a href="#">EXPLORE</a>
+            <a href="#">BLOGS</a>
+            <a href="#">PLACES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SHOP</a>
+        </div>
+        <img src="logo.png" alt="logo" class="logo">
+        <p class="site-name">VENTURE<span class="site-sub-name">VIBES</span></p>
+
+        <a href="#" class="login-btn signup-btn">SIGN UP</a>
+        <a href="#" class="login-btn log-btn">LOG IN</a>
+
+        <div class="headline">
+            <h1 class="heading">Experience the Best of <span class="Nature">Nature</span> and <span class="Culture">Culture</span><br> in the Heart of the Countryside</h1>
+        <!--<p class="caption">Life long memories just a few seconds away</p>--> 
+
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Where to go?">
+        </div>
     </div>
-    <img src="logo.png" alt="logo" class="logo">
-    <p class="site-name">VENTURE<span class="site-sub-name">VIBES</span></p>
+    
 
-    <a href="#" class="login-btn signup-btn">SIGN UP</a>
-    <a href="#" class="login-btn log-btn">LOG IN</a>
-
-    <div class="headline">
-        <h1 class="heading">Experience the Best of <span class="Nature">Nature</span> and <span class="Culture">Culture</span><br> in the Heart of the Countryside</h1>
-       <!--<p class="caption">Life long memories just a few seconds away</p>--> 
-
-    <div class="search-container">
-        <input type="text" class="search-bar" placeholder="Where to go?">
+    <div class="intro">
+        <p class="intro-descpition">
+            Join us on a journey through the rolling hills, rich farmlands, and charming rural villages.<br> Discover a world where the biliauty of nature meets the richness of culture.<br><br>
+            <span class="intro-caption">Venture Vibes is the story of our travels<br>The moments that moved us, the characters we encountered and the stage upon which it is all set.<hr>
+            </span> 
+        </p>
     </div>
 
-   
+    <div class="award-of-year">
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Guild of Travel Writers, 2022</span></div>
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">TravMedia Awards, 2021</span></div>
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Blogosphere Awards, 2021</span></div>
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Travel Media Awards, 2020</span></div>
+    </div>
+
+    
         
 
       

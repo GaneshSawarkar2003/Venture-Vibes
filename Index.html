@@ -150,13 +150,13 @@
             font-weight: 300;
 
         }
-        .itnro-caption{
+        .intro-caption{
             text-align: center;
             font-family: 'Poppins', sans-serif;
             font-weight: 200;
         }
         hr{
-            width: 18%;
+            width: 40%;
             margin-top: 35px;
             margin-bottom: 30px;
         }
@@ -165,17 +165,89 @@
             justify-content: center;
             justify-content: space-evenly;
             margin-top: 60px;
+           
         }
         .awards{
             text-align: center;
             font-family: 'Kanit', sans-serif;
             font-weight: 400;
+            font-size: 17px;
         }
         .year{
             text-align: center;
             font-family: 'Poppins', sans-serif;
             font-weight: 200;
+            font-size: 15px;
         }
+        .blog-main-heading{
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            font-size: 45px;
+            margin-top: 110px;
+        }
+        .blog-container {
+            display: flex;
+            justify-content: space-around;
+            justify-content: center;
+            background-color: #f7f8fb;
+        }
+
+        .blogs{
+            width: 300px;
+            height: 450px;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .blog-img {
+            width: 100%;
+            height: 75%;
+            border-radius: 5px;
+            
+        }
+
+        .blog-heading {
+            margin-top: -63px;
+            margin-right: 8px;
+            margin-left: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: white;
+            font-size: 19px;
+        }
+        .blog-caption{
+            margin: 9px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 150;
+            font-size: 14px;
+        }
+
+        .read-btn{
+            display: block;
+            text-decoration: none;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 10px;
+            width: 15%;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            color: #405138;
+            border: 1.5px solid rgb(0, 0, 0);
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 40px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            outline:none;
+            text-align: center;
+        }
+            
+
 </style>
 <body>
     <div class="header-section">
@@ -198,7 +270,7 @@
         <!--<p class="caption">Life long memories just a few seconds away</p>--> 
 
         <div class="search-container">
-            <input type="text" class="search-bar" placeholder="Where to go?">
+            <input type="text" class="search-bar" placeholder="Where to next?">
         </div>
     </div>
     
@@ -216,6 +288,53 @@
         <div class="awards">BLOGGER OF THE YEAR<br><span class="year">TravMedia Awards, 2021</span></div>
         <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Blogosphere Awards, 2021</span></div>
         <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Travel Media Awards, 2020</span></div>
+    </div>
+
+    <h2 class="blog-main-heading">Discover our Travel Stories</h2>
+
+    <div class="blog-container"><!--with review point-->
+        
+        <div class="blogs">
+            <img src="india 2.jpg" alt="India" class="blog-img" >
+            <h3 class="blog-heading">Experiencing the Vibrant Tapestry of India</h3>
+            <p class="blog-caption">No trip to India would be complete without a visit to the iconic Taj Mahal in Agra architectural masterpiece.</p>
+        </div>
+        <div class="blogs">
+            <img src="kathmandu.jpg" alt="Nepal" class="blog-img" >
+            <h3 class="blog-heading">A Window into Nepal's Rich Heritage</h3>
+            <p class="blog-caption">Immerse yourself in the spiritual ambiance of Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Stupa .</p>
+        </div>
+        <div class="blogs">
+            <img src="china town.jpg" alt="Singapure" class="blog-img" >
+            <h3 class="blog-heading">Discovering the Diverse Charms of Singapore</h3>
+            <p class="blog-caption">Singapore, a vibrant city-state, Step into a vibrant world of rich heritage, traditional shops, and mouthwatering street food.</p>
+        </div>
+        <div class="blogs">
+            <img src="america 2.jpg" alt="Usa" class="blog-img" >
+            <h3 class="blog-heading">Beyond the City Lights: Exploring America</h3>
+            <p class="blog-caption">The United States is a vast land of diverse landscapes, charming towns, and cultural treasures waiting to be explored. </p>
+        </div>
+        <div class="blogs">
+            <img src="hiroshima.jpg" alt="Japan" class="blog-img" >
+            <h3 class="blog-heading">Japan the Charms of Tradition and Modernity</h3>
+            <p class="blog-caption">Japan, a country that beautifully blends its rich cultural heritage with cutting-edge technology. </p>
+        </div>
+    </div>
+    <a href="#" class="read-btn">Read More</a>
+
+
+
+
+    <div class="testimonails-container">
+
+    </div>
+
+    <div class="subscribe-section">
+
+    </div>
+
+    <div class="footer-section">
+
     </div>
 
     

@@ -46,6 +46,7 @@
         margin-left: 23px;
         margin-top: -25px;
         justify-items: center;
+        border-radius: 45%;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     }
     .site-name, site-sub-name{
@@ -58,7 +59,7 @@
         letter-spacing: 1.5px;
     }
     .site-name{
-        color: #eff0f2
+        color: #eff0f2;
     }
     .site-sub-name{
         color: #405138;
@@ -94,7 +95,53 @@
             transition: all 0.8s ease;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
-  
+        .heading{
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            margin-top: 250px;
+            text-shadow: -15px 5px 20px #ced0d3;
+        }
+        .Nature, .Culture{
+            color: yellowgreen;
+            text-shadow: 3px 3px 20px white
+        }
+        /*.caption{
+            text-align: center;
+            color: gray;
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            
+            text-shadow: -15px 5px 20px #ced0d3;
+        }*/
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+
+        .search-bar {
+            width: 400px;
+            height: 33px;
+            border: 0.05px solid #fff;
+            border-radius: 120px;
+            padding: 7px;
+            padding-left: 50px;
+            padding-right: 20px;
+            font-size: 16px;
+            background: transparent;
+            color: white;
+            background-image: url(search\ icon.png);
+            background-repeat: no-repeat;
+            background-position: 95%;
+            background-size: 30px;
+        }
+    
+            
 </style>
 <body>
     <div class="navbar">
@@ -110,7 +157,17 @@
 
     <a href="#" class="login-btn signup-btn">SIGN UP</a>
     <a href="#" class="login-btn log-btn">LOG IN</a>
-    
+
+    <div class="headline">
+        <h1 class="heading">Experience the Best of <span class="Nature">Nature</span> and <span class="Culture">Culture</span><br> in the Heart of the Countryside</h1>
+       <!--<p class="caption">Life long memories just a few seconds away</p>--> 
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Where to go?">
+    </div>
+
+   
+        
 
       
 </body>

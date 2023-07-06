@@ -1,0 +1,271 @@
+.container {
+    background-image: url(MainImage.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 60px;
+    color: rgb(128, 55, 0);
+}
+
+.container p {
+    font-size: 20px;
+    color: rgb(128, 55, 0);
+    font-weight: bold;
+}
+
+.head {
+    background-color: rgba(244, 236, 236, 0.541);
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.country {
+    text-align: center;
+}
+
+.cards {
+    height: 230px;
+    width: 400px;
+    /* background-color: aqua; */
+    padding: 15px;
+    /* margin: 10px; */
+    /* display: inline-block; */
+    /* border-radius: 5px; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(159, 43, 172);
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.places h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cards-India {
+    height: 500px;
+    width: 430px;
+    background-color: rgba(245, 195, 254, 0.39);
+    /* background-color: rgba(254, 195, 205, 0.39); */
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.cards-India h1 {
+    color: rgb(128, 55, 0);
+}
+
+.cards p {
+    font-size: 18px;
+}
+
+.image img {
+    background-image: url(Taj\ Mahal.jpg);
+    background-size: 100% 100%;
+    height: 230px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.Subscribe {
+    height: 250px;
+    width: 88vw;
+    background-color: rgba(226, 159, 238, 0.758);
+    padding: 20px;
+    margin: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subscribe-heading {
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 211px;
+    font-size: 30px;
+}
+
+.email {
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    color: black;
+    position: relative;
+    right: 160px;
+    margin-top: 50px;
+
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    right: 160px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.heading {
+    color: green;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+
+    .container {
+        height: 300px;
+    }
+
+    .heading {
+        margin-top: 20px;
+    }
+
+    .Subscribe {
+        height: 500px;
+        width: 88vw;
+        background-color: rgba(226, 159, 238, 0.758);
+        padding: 20px;
+        margin: 0 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container h1 {
+        font-size: 30px;
+
+    }
+
+    .container p {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .head {
+        padding: 10px;
+        border-radius: 5px;
+        width: 200px;
+    }
+
+    .cards-India {
+        height: 425px;
+        width: 342px;
+    }
+
+    .cards {
+        width: 300px;
+    }
+
+    .cards p {
+        font-size: 16px;
+    }
+
+    .image img {
+        height: 175px;
+        width: 300px;
+    }
+
+    .cards-India h1 {
+        font-size: 27px;
+    }
+
+    .Subscribe {
+        margin: auto;
+        width: 305px;
+    }
+
+    /* .Subscribe-heading {
+        position: none;
+    } */
+    .places h2{
+        font-size: 22.5px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .container {
+        height: 420px;
+    }
+
+    .head {
+        padding: 12px;
+        border-radius: 5px;
+        width: 230px;
+    }
+
+    .container h1 {
+        font-size: 40px;
+
+    }
+
+    .container p {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .places h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 910px) {
+    .container {
+        height: 502px;
+    }
+
+    .container h1 {
+        font-size: 50px;
+
+    }
+
+    .container p {
+        font-size: 18.12px;
+        font-weight: bold;
+    }
+
+    .head {
+        padding: 15px;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .places h2{
+        font-size: 27.5px;
+    }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1200px) {
+    .container {
+        height: 502px;
+    }
+}
+

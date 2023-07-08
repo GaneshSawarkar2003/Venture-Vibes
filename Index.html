@@ -3,8 +3,357 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
 </head>
-<body>
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins:wght@100;200;300;500&display=swap');
 
+    body{
+        margin: 0px;
+        background-image: url('../images/bg2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+   
+    .navbar {
+        text-align: center;
+        margin-top: 32px; 
+     
+    }
+
+    .navbar a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 25px;
+        margin-right: 25px ;
+        padding-bottom: 7px; 
+
+    }
+
+    .navbar a:hover {
+        border-bottom: 1px solid whitesmoke;
+        transition: all 0.5s ease;
+        font-size: 18px; 
+    }
+    .logo{
+        height: 30px;
+        float: left;
+        margin-left: 23px;
+        margin-top: -25px;
+        justify-items: center;
+        border-radius: 45%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .site-name, site-sub-name{
+        float: left;
+        margin-left: 8px;
+        margin-top: -20px;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1.5px;
+    }
+    .site-name{
+        color: #eff0f2;
+    }
+    .site-sub-name{
+        color: #405138;
+        padding-left: 5px;
+    }
+    .login-btn{
+        text-decoration: none;
+        float: right;
+        margin-right: 29px;
+        margin-top: -25px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        border: 1.5px solid whitesmoke;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline:none;
+        text-align: center;
+        }
+        .signup-btn{
+            margin-right: 50px;
+        }
+        .log-btn{
+            margin-right: 10px;
+        }
+        .login-btn:hover{
+            background-color: #f2f2f2;
+            color: #405138;
+            transition: all 0.8s ease;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .heading{
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            margin-top: 250px;
+            text-shadow: -15px 5px 20px #ced0d3;
+        }
+        .Nature, .Culture{
+            color: yellowgreen;
+            text-shadow: 3px 3px 20px white
+        }
+        /*.caption{
+            text-align: center;
+            color: gray;
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            
+            text-shadow: -15px 5px 20px #ced0d3;
+        }*/
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+
+        .search-bar {
+            width: 400px;
+            height: 33px;
+            border: 0.05px solid #fff;
+            border-radius: 120px;
+            padding: 7px;
+            padding-left: 50px;
+            padding-right: 20px;
+            font-size: 16px;
+            background: transparent;
+            color: white;
+            background-image: url(search\ icon.png);
+            background-repeat: no-repeat;
+            background-position: 95%;
+            background-size: 30px;
+        }
+        .intro{
+            margin-top: 400px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+
+        }
+        .intro-caption{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+        }
+        hr{
+            width: 40%;
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .award-of-year{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            margin-top: 60px;
+           
+        }
+        .awards{
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+        }
+        .year{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+        }
+        .blog-main-heading{
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            font-size: 45px;
+            margin-top: 110px;
+        }
+        .blog-container {
+            display: flex;
+            justify-content: space-around;
+            justify-content: center;
+            background-color: #f7f8fb;
+        }
+
+        .blogs{
+            width: 300px;
+            height: 450px;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .blog-img {
+            width: 100%;
+            height: 75%;
+            border-radius: 5px;
+            
+        }
+
+        .blog-heading {
+            margin-top: -63px;
+            margin-right: 8px;
+            margin-left: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: white;
+            font-size: 19px;
+        }
+        .blog-caption{
+            margin: 9px;
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+
+        .read-btn{
+            display: block;
+            text-decoration: none;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 10px;
+            width: 15%;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            color: #405138;
+            border: 1.5px solid rgb(0, 0, 0);
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 40px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            outline:none;
+            text-align: center;
+        }
+
+            
+
+</style>
+<body>
+    <div class="header-section">
+        <div class="navbar">
+        
+            <a href="#">EXPLORE</a>
+            <a href="#">BLOGS</a>
+            <a href="#">PLACES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SHOP</a>
+        </div>
+        <img src="./images/logo.png" alt="logo" class="logo">
+        <p class="site-name">VENTURE<span class="site-sub-name">VIBES</span></p>
+
+        <a href="#" class="login-btn signup-btn">SIGN UP</a>
+        <a href="#" class="login-btn log-btn">LOG IN</a>
+
+        <div class="headline">
+            <h1 class="heading">Experience the Best of <span class="Nature">Nature</span> and <span class="Culture">Culture</span><br> in the Heart of the Countryside</h1>
+        <!--<p class="caption">Life long memories just a few seconds away</p>--> 
+
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Where to next?">
+        </div>
+    </div>
+    
+
+    <div class="intro">
+        <p class="intro-descpition">
+            Join us on a journey through the rolling hills, rich farmlands, and charming rural villages.<br> Discover a world where the biliauty of nature meets the richness of culture.<br><br>
+            <span class="intro-caption">Venture Vibes is the story of our travels<br>The moments that moved us, the characters we encountered and the stage upon which it is all set.<hr>
+            </span> 
+        </p>
+    </div>
+
+    <div class="award-of-year">
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Guild of Travel Writers, 2022</span></div>
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">TravMedia Awards, 2021</span></div>
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Blogosphere Awards, 2021</span></div>
+        <div class="awards">BLOGGER OF THE YEAR<br><span class="year">Travel Media Awards, 2020</span></div>
+    </div>
+
+    <h2 class="blog-main-heading">Discover our Travel Stories</h2>
+
+    <div class="blog-container"><!--with review point-->
+        
+        <div class="blogs">
+            <img src="./images/india 2.jpg" alt="India" class="blog-img" >
+            <h3 class="blog-heading">Experiencing the Vibrant Tapestry of India</h3>
+            <p class="blog-caption">No trip to India would be complete without a visit to the iconic Taj Mahal in Agra architectural masterpiece.</p>
+        </div>
+        <div class="blogs">
+            <img src="./images/kathmandu.jpg" alt="Nepal" class="blog-img" >
+            <h3 class="blog-heading">A Window into Nepal's Rich Heritage</h3>
+            <p class="blog-caption">Immerse yourself in the spiritual ambiance of Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Stupa .</p>
+        </div>
+        <div class="blogs">
+            <img src="./images/china town.jpg" alt="Singapure" class="blog-img" >
+            <h3 class="blog-heading">Discovering the Diverse Charms of Singapore</h3>
+            <p class="blog-caption">Singapore, a vibrant city-state, Step into a vibrant world of rich heritage, traditional shops, and mouthwatering street food.</p>
+        </div>
+        <div class="blogs">
+            <img src="./images/america 2.jpg" alt="Usa" class="blog-img" >
+            <h3 class="blog-heading">Beyond the City Lights: Exploring America</h3>
+            <p class="blog-caption">The United States is a vast land of diverse landscapes, charming towns, and cultural treasures waiting to be explored. </p>
+        </div>
+        <div class="blogs">
+            <img src="./images/hiroshima.jpg" alt="Japan" class="blog-img" >
+            <h3 class="blog-heading">Japan the Charms of Tradition and Modernity</h3>
+            <p class="blog-caption">Japan, a country that beautifully blends its rich cultural heritage with cutting-edge technology. </p>
+        </div>
+    </div>
+    <a href="#" class="read-btn">Read More</a>
+
+
+
+    <div>
+        <p class="places-descpition">
+            WHERE DOES YOUR CURIOSITY TAKE YOU?<br><br>
+            <span class="places-caption">
+                We travel to destinations with a story to tell, seeking hidden gems, local specialities, off-the-beaten-track experiences and jaw-dropping natural scenery.<br>
+                Our travel writing captures the one thing we always strive to create – incredible travel experiences. From learning about the historical and political context of a destination to finding some really great hikes, each new place has something to discover.<hr>
+            </span> 
+        </p>
+    </div>
+
+
+
+
+    <div class="testimonails-container">
+
+    </div>
+
+    <div class="subscribe-section">
+
+    </div>
+
+    <div class="footer-section">
+
+    </div>
+
+    
+        
+
+      
 </body>
 </html>

@@ -1,0 +1,53 @@
+ body {
+  background-image: url(../images/privacy.png);
+  background-size: cover;
+  background-position: center;
+ }
+
+ /* Introduction Section */
+ #intro {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Data Collection Section */
+#data-collection {
+  background-color: #eaeaea;
+   padding: 20px;
+}
+
+/* Use of Personal Information Section */
+#use-of-personal-information {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Third-Party Section */
+ #third-party {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+/* Data Security Section */
+ #data-security {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* User Rights Section */
+#user-rights {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Cookies Section */
+ #cookies {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Policy Update Section */
+#policy-update {
+  background-color: #edebeb;
+  padding: 20px;
+}

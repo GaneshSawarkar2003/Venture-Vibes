@@ -34,15 +34,19 @@ body{
 } 
 
 #ad-privacy-policy {
-  padding: 20px;
+  padding: 0px;
 }
 
 #affiliate-disclosure {
-  padding: 20px;
+  padding: 0px;
 }
 
-#ccpa-privacy-policy {
-  padding: 20px;
+#gdpr-privacy-policy {
+  padding: 0px;
+}
+
+#policy-changes {
+  padding: 0px;
 }
 
 #do-not-sell-button {

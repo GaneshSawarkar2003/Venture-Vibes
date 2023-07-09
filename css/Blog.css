@@ -97,14 +97,21 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .Subscribe-heading {
     color: white;
-    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    /* position: relative;
     top: -40px;
-    left: 211px;
+    left: 211px; */
     font-size: 30px;
+    
+}
+.combo{
+    /* margin-top: 20px; */
 }
 
 .email {
@@ -114,20 +121,20 @@ button {
     width: 300px;
     border: none;
     color: black;
-    position: relative;
-    right: 160px;
-    margin-top: 50px;
+    /* position: relative;
+    right: 160px; */
+    /* margin-top: 50px; */
 
 }
 
-.btn {
+/* .btn {
     display: inline-block;
     position: relative;
     right: 160px;
-    margin-top: 50px;
-}
+    margin-top: 50px; */
+/* } */
 
-button:hover {
+.btn:hover {
     background-color: red;
 }
 
@@ -149,14 +156,15 @@ button:hover {
     }
 
     .Subscribe {
-        height: 500px;
-        width: 88vw;
-        background-color: rgba(226, 159, 238, 0.758);
-        padding: 20px;
-        margin: 0 60px;
-        display: flex;
+        
+        /* height: 100%;
+        width: 100%; */
+        /* background-color: rgba(226, 159, 238, 0.758);
+        padding: 20px; */
+        /* margin: 0 60px; */
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
 
     .container h1 {
@@ -198,8 +206,10 @@ button:hover {
     }
 
     .Subscribe {
-        margin: auto;
-        width: 305px;
+        /* margin: auto; */
+        /* width: 305px; */
+        margin-left: 0;
+        margin-right: 0;
     }
 
     /* .Subscribe-heading {
@@ -208,6 +218,25 @@ button:hover {
     .places h2{
         font-size: 22.5px;
     }
+
+    .Subscribe-heading {
+        /* position: relative;
+        top: 40px; */
+        /* left: 211px; */
+        /* font-size: 30px; */
+        text-align: center;
+    }
+
+   .combo .email{
+    width: 200px;
+   }
+
+   .combo .btn{
+    width:100px;
+   }
+
+
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {

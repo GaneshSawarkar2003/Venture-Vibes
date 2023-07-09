@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .hero{
+            width: 100%;
+            height: 500px;
+            background-image:linear-gradient(rgba(12,3,51,0.3),(12,3,51,0.3)) ;
+            position: relative;
+            /* padding:0%; */
+            display:flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        nav{
+            width: 1000px;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            /* padding: 20px 8%; */
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 600px;
+        }
+
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        nav ul a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .content{
+            text-align: center;
+
+        }
+        .content h1 {
+            font-size: 140px;
+            color:rgb(37, 32, 32);
+            font-weight: 600;
+            z-index: -1;
+        }
+        .search{
+            display: inline-block;
+            font-size: 24px;
+            border:2px solid rgb(91, 81, 81) ;
+            border-radius: 10px;
+            margin-top: 10px;
+            width: 400px;
+            height:60px;
+
+        }
+
+        .back-video{
+            position: absolute;
+            right: 0%;
+            bottom: 0%;
+            z-index: -1;
+            width: 100%;
+        }
+
+        .features-img{
+            text-align: center;
+            display: inline-block;
+            margin-top: 50px;
+            margin-left: 300px;
+        }
+        .features{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 40px;
+        }
+        .category{
+            display:inline-flex;
+            flex-direction: row;
+            margin: 20px;
+          
+        }
+
+        .product{
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 1px#000000;
+            border: 1px solid;
+            padding: 15px;
+            box-shadow: 1px 1px 20p 1px;
+            height:22rem;
+            width:14rem;
+            margin: 20px;
+        }
+        .buy-btn{
+            height: 40px;
+            width: 120px;
+            text-align: center;
+            align-items: center;
+            background-color: rgb(137, 11, 53);
+            color: black;
+            border-radius: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .buy-btn:hover{
+            background-color: rgb(232, 125, 141);
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <div class="hero">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="video travel.mp4" type="video/mp4">
+        </video>
+
+        <nav>
+        <ul>
+            <li>ABOUT US</li>
+            <li>BLOG</li>
+            <li>TRAVEL RESOURCES</li>
+            <li>PLACES</li>
+            <li>SHOP</li>
+            <li>HOME</li>
+        </ul>
+    </nav>
+
+    
+    <div class="content">
+
+        <h1>STORE</h1>
+
+    </div>
+
+</div>
+
+    <div class="features">
+        <label for="input search" ></label> 
+        <input type="text"  placeholder="         search your city  name " class="search"/>
+
+        <h2>SHOP BY CATEGORY</h2>
+    </div>
+
+
+<!-- 111111111 -->
+
+<h1>LUGGAGE</h1>
+<div class="category">
+
+    <div class="product">
+        <h3>SAMSONITE</h3>
+        <img src="./features-image/samnonite.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>₹ 699</h3>
+            
+            <div class="buy-btn">Buy Now</div>
+           
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>DELSEY</h3>
+        <img src="/features-image/dels.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>₹ 599</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>TOMMY-LAUGGAGE</h3>
+        <img src="/features-image/tommy-lauggage.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>DELSEY</h3>
+        <img src="/features-image/delsey.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>CARRY ON LUGGAGE</h3>
+        <img src="/features-image/carry-on-luggage.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+   
+</div>
+
+
+<!-- 222222222222 -->
+
+<h1>CLOTHES</h1>
+
+<div class="category">
+
+    <div class="product">
+        <h3>TRAVEL-PANT</h3>
+        <img src="/features-image/travel-pant.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>TRAVEL-T-SHIRT</h3>
+        <img src="/features-image/travel-t-shirt.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>TRAVEL-JACKET</h3>
+        <img src="/features-image/travel-jacket.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>SOCKS</h3>
+        <img src="/features-image/travel-socks.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>TRAVEL-ACCESSORIES</h3>
+        <img src="/features-image/travel-accessories.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+   
+</div>
+
+
+<!-- 3333333333 -->
+
+<h1>TRAVEL ESSENTIAL</h1>
+<div class="category">
+
+    <div class="product">
+        <h3>FIRST AID CIT</h3>
+        <img src="/features-image/travel-first-aid-kit.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">
+                Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>ESSENTIAL NECK PILLOW</h3>
+        <img src="/features-image/travel-essential-neck-pillow.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>ESSENTIAL PACKING CUBES</h3>
+        <img src="/features-image/travel-essential-packing-cubes.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>ESSENTIAL POWER BANK</h3>
+        <img src="features-image/travel-essential-power-bank.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>FIRST AID KIT</h3>
+        <img src="/features-image/travel-first-aid-kit.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+   
+</div>
+
+
+<!-- 4444444444 -->
+<h1>TRAVEL ELECTRONICS</h1>
+<div class="category">
+
+    <div class="product">
+        <h3>SMARTPHONE</h3>
+        <img src="/features-image/Smartphone .img" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>PORTABLE SPEKERS</h3>
+        <img src="/features-image/Portable Spekers.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>E-READERS</h3>
+        <img src="./../images/ features-image/E-Readers.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>LAPTOP</h3>
+        <img src="/features-image/Laptop.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>CAMERA</h3>
+        <img src="/features-image/Camera.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+   
+</div>
+
+
+
+<!-- 55555555 -->
+
+
+
+<h1>HEALTH AND SAFTY</h1>
+<div class="category">
+
+    <div class="product">
+        <h3>FIRST AID KIT</h3>
+        <img src="/features-image/travel-first-aid-kit.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>HAND SANITIZER</h3>
+        <img src="/features-image/travel-hand-sanitizer.webp" height="180px" width="150px">
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>LUGGAGE</h3>
+        <img src="/features-image/luggage-lock.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>TRAVEL SAFETY</h3>
+        <img src="/features-image/travel safety.jpg" height="180px" width="150px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>ESSENTIAL NECK PILLOW</h3>
+        <img src="/features-image/travel-essential-neck-pillow.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+   
+</div>
+
+
+
+<!-- 66666666 -->
+
+<h1>BOOKS AND GUIDES</h1>
+<div class="category">
+
+    <div class="product">
+        <h3>B</h3>
+        <img src="/features-image/fodor-essential-europe.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>BOOKS AND GUIDES2</h3>
+        <img src="/features-image/dk-eyewitness-travel-guide-spain.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>BOOKS AND GUIDES3</h3>
+        <img src="/features-image/lonely-planet-ultimate-travel-book.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>BOOKS AND GUIDES4</h3>
+        <img src="/features-image/national-geographical-travel.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <h3>BOOKS AND GUIDES5</h3>
+        <img src="/features-image/the-bucket-list.webp" height="180px" >
+        <div class="price-product-details">
+            <h3>price</h3>
+            <div class="buy-btn">Buy Now</div>
+            <p></p>
+        </div>
+
+    </div>
+
+   
+</div>
+
+    </div> 
+   
+</div>
+    
+</body>
+</html>

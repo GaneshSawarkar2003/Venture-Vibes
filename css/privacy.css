@@ -33,6 +33,10 @@ body{
   margin-top: 10px;
 } 
 
+#ad-privacy-policy {
+  padding: 20px;
+}
+
 #search-form {
   margin-top: 140px;
 }
@@ -64,6 +68,3 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-h1{
-  font-size: 100px;
-}

@@ -4,253 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
-<style>
-    
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins:wght@100;200;300;500&display=swap');
 
-    body{
-        margin: 0px;
-        background-image: url('../images/bg2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
-   
-    .navbar {
-        text-align: center;
-        margin-top: 32px; 
-     
-    }
-
-    .navbar a {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: 'Raleway', sans-serif;
-        margin-left: 25px;
-        margin-right: 25px ;
-        padding-bottom: 7px; 
-
-    }
-
-    .navbar a:hover {
-        border-bottom: 1px solid whitesmoke;
-        transition: all 0.5s ease;
-        font-size: 18px; 
-    }
-    .logo{
-        height: 30px;
-        float: left;
-        margin-left: 23px;
-        margin-top: -25px;
-        justify-items: center;
-        border-radius: 45%;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    }
-    .site-name, site-sub-name{
-        float: left;
-        margin-left: 8px;
-        margin-top: -20px;
-        font-size: 19px;
-        font-weight: bold;
-        font-family: 'Raleway', sans-serif;
-        letter-spacing: 1.5px;
-    }
-    .site-name{
-        color: #eff0f2;
-    }
-    .site-sub-name{
-        color: #405138;
-        padding-left: 5px;
-    }
-    .login-btn{
-        text-decoration: none;
-        float: right;
-        margin-right: 29px;
-        margin-top: -25px;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: 'Raleway', sans-serif;
-        color: white;
-        border: 1.5px solid whitesmoke;
-        padding: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 40px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        outline:none;
-        text-align: center;
-        }
-        .signup-btn{
-            margin-right: 50px;
-        }
-        .log-btn{
-            margin-right: 10px;
-        }
-        .login-btn:hover{
-            background-color: #f2f2f2;
-            color: #405138;
-            transition: all 0.8s ease;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-        .heading{
-            text-align: center;
-            color: white;
-            font-size: 50px;
-            font-family: 'Raleway', sans-serif;
-            font-weight: bolder;
-            margin-top: 250px;
-            text-shadow: -15px 5px 20px #ced0d3;
-        }
-        .Nature, .Culture{
-            color: yellowgreen;
-            text-shadow: 3px 3px 20px white
-        }
-        /*.caption{
-            text-align: center;
-            color: gray;
-            font-size: 20px;
-            font-family: 'Raleway', sans-serif;
-            
-            text-shadow: -15px 5px 20px #ced0d3;
-        }*/
-        .search-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            
-        }
-
-        .search-bar {
-            width: 400px;
-            height: 33px;
-            border: 0.05px solid #fff;
-            border-radius: 120px;
-            padding: 7px;
-            padding-left: 50px;
-            padding-right: 20px;
-            font-size: 16px;
-            background: transparent;
-            color: white;
-            background-image: url(search\ icon.png);
-            background-repeat: no-repeat;
-            background-position: 95%;
-            background-size: 30px;
-        }
-        .intro{
-            margin-top: 400px;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 300;
-
-        }
-        .intro-caption{
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 200;
-        }
-        hr{
-            width: 40%;
-            margin-top: 35px;
-            margin-bottom: 30px;
-        }
-        .award-of-year{
-            display: flex;
-            justify-content: center;
-            justify-content: space-evenly;
-            margin-top: 60px;
-           
-        }
-        .awards{
-            text-align: center;
-            font-family: 'Kanit', sans-serif;
-            font-weight: 400;
-            font-size: 17px;
-        }
-        .year{
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 200;
-            font-size: 15px;
-        }
-        .blog-main-heading{
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-weight: bolder;
-            font-size: 45px;
-            margin-top: 110px;
-        }
-        .blog-container {
-            display: flex;
-            justify-content: space-around;
-            justify-content: center;
-            background-color: #f7f8fb;
-        }
-
-        .blogs{
-            width: 300px;
-            height: 450px;
-            margin: 20px;
-            border-radius: 5px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .blog-img {
-            width: 100%;
-            height: 75%;
-            border-radius: 5px;
-            
-        }
-
-        .blog-heading {
-            margin-top: -63px;
-            margin-right: 8px;
-            margin-left: 8px;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            color: white;
-            font-size: 19px;
-        }
-        .blog-caption{
-            margin: 9px;
-            font-size: 14px;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 300;
-        }
-
-        .read-btn{
-            display: block;
-            text-decoration: none;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 10px;
-            width: 15%;
-            font-size: 15px;
-            font-weight: bold;
-            font-family: 'Raleway', sans-serif;
-            color: #405138;
-            border: 1.5px solid rgb(0, 0, 0);
-            padding: 5px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-radius: 40px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            outline:none;
-            text-align: center;
-        }
-
-            
-
-</style>
 <body>
     <div class="header-section">
         <div class="navbar">
@@ -294,7 +51,7 @@
 
     <h2 class="blog-main-heading">Discover our Travel Stories</h2>
 
-    <div class="blog-container"><!--with review point-->
+    <div class="blog-container">
         
         <div class="blogs">
             <img src="./images/india 2.jpg" alt="India" class="blog-img" >
@@ -324,31 +81,259 @@
     </div>
     <a href="#" class="read-btn">Read More</a>
 
-
-
+   
+    </div>
     <div>
-        <p class="places-descpition">
-            WHERE DOES YOUR CURIOSITY TAKE YOU?<br><br>
-            <span class="places-caption">
-                We travel to destinations with a story to tell, seeking hidden gems, local specialities, off-the-beaten-track experiences and jaw-dropping natural scenery.<br>
-                Our travel writing captures the one thing we always strive to create – incredible travel experiences. From learning about the historical and political context of a destination to finding some really great hikes, each new place has something to discover.<hr>
-            </span> 
+        <p class="places-descrpition">
+            Where does your curiosity take's you?
         </p>
+        <p class="place-caption">
+            We travel to destinations with a story to tell, seeking hidden gems, local specialities off-the-beaten-track experiences and jaw-dropping natural scenery. Our travel writing captures the one thing we always strive to create incredible travel experiences. From learning about the historical and political context of a destination to finding some really great hikes, each new place has something to discover.
+        </p><hr>
     </div>
 
 
 
 
-    <div class="testimonails-container">
+
+
+
+    <div class="box-container">
+        <div class="video-container">
+            <video src="./videos/drone shot 102.mp4" autoplay loop muted></video>
+            <div class="text-overlay">
+              <h1>Travel far enough, until you meet yourself</h1>
+            </div>
+        </div>
+
+
+        <!--<div class="form-container">
+            <div class="form-title">
+                <h1>MAKE YOUR RESERVATION</h1>
+            </div>
+            <div class="user-detail">
+                <div class="input-box">
+                    <label for="name">First Name :</label>
+                    <input type="text" placeholder="Enter first name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="name">Last Name :</label>
+                    <input type="text" placeholder="Enter last name" name="lname" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email :</label>
+                    <input type="email" placeholder="Enter valid email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">Mobile No :</label>
+                    <input type="tel" placeholder="Enter last name" name="lname" required>
+                </div>
+                <div class="input-box">
+                    <label for="departure">Departure :</label>
+                    <input type="date" placeholder="Enter Departure date" name="departure" required>
+                </div>
+                <div class="input-box">
+                    <label for="arrival">Arrival :</label>
+                    <input type="date" placeholder="Enter Arrival date" name="arrival" required>
+                </div>
+                <div class="input-box">
+                    <label for="adult">No of Adult :</label>
+                    <input type="number" placeholder="Enter no of adult" name="adult" required>
+                </div>
+                <div class="input-box">
+                    <label for="children">No of Children :</label>
+                    <input type="text" placeholder="Enter no of children" name="children" required>
+                </div>
+                <div class="input-box">
+                    <label for="request">Special Request :</label>
+                    <input type="text" placeholder="Any special request" name="request" required>
+                </div>
+                <div class="check-box">
+                    <input type="checkbox" name="updateme" >
+                    <label for="updateme">Update me on deals and special offers via email</label><br>
+                    
+                </div>
+                <div class="book-btn">
+                    <button type="submit">Book Now</button>
+                </div>
+            </div>-->
+
+            <div class="half-container">
+
+                <div class="grid1 grid">
+                    <img src="./images/china town.jpg" alt="img" class="grid-img ">
+                </div>
+                <div class="grid2 grid">
+                    <img src="./images/china town.jpg" alt="img" class="grid-img ">
+                </div>
+                <div class="grid3 grid">
+                    <img src="./images/china town.jpg" alt="img" class="grid-img ">
+                </div>
+
+            </div>
+                  
+               
+        </div>
+    
+    </div>
+    <a href="#" class="read-btn">Read More</a>
+
+
+    <div class="members-container">
+        
+        <h2 class="blog-main-heading">Testimonials</h2>
+        <h4>On every expedition, the number of participants is kept to a level to enable the highest quality to be maintained. We do not want to be that company where you become a number or even a blur after the expedition has finished, so we have a strict cut off point to ensure that our groups never become too big.
+            <br>
+            We strongly believe that by doing this our Mountain Expeditions Leaders are able to provide a more personalised service and we find that group dynamics work much better than when travelling in high numbers. Therefore, your success rate and enjoyment increases immeasurably.</h4>
+
+        <div class="testimonial-container">
+            
+            <div class="members">
+                
+                <h3 class="member-heading">SHIRISH MESHRAM</h3><hr class="hrrow">
+                <p class="member-caption">GROUP LEADER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+
+            </div>
+            <div class="members">
+                
+                <h3 class="member-heading">HARSHALI KANOJE</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+            <div class="members">
+                
+                <h3 class="member-heading">PREM AWAZE</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+            <div class="members">
+                
+                <h3 class="member-heading">SAMIKSHA SHAHARE</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER </p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+        
+        </div>
+
+        <div class="testimonial-container">
+            
+            <div class="members">
+                
+                <h3 class="member-heading">SAYALI KOHAD</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+
+            </div>
+            <div class="members">
+               
+                <h3 class="member-heading">AKASH CHAVHAN</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+
+            <div class="members">
+                
+                <h3 class="member-heading">GANESH SAWARKAR</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                 <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+            <div class="members">
+               
+                <h3 class="member-heading">SHWETA DAMALE</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER </p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+        
+        </div>
+        <div class="testimonial-container">
+            
+            <div class="members">
+                
+                <h3 class="member-heading">PRASANNA SHINDE</h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+            <div class="members">
+               
+                <h3 class="member-heading">KISHOR </h3><hr class="hrrow">
+                <p class="member-caption">MEMBER</p><br>
+                <span class="icons">
+                    <a href=""><img class="avatar i1" src="./images/git.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i2" src="./images/instagram 101.png" /></a><hr class="hrline">
+                    <a href=""><img class="avatar i3" src="./images/linkedin (1).png" /></a>
+                </span>
+            </div>
+        
+        </div>
 
     </div>
+
 
     <div class="subscribe-section">
+        <div class="news-letter" id="News-letter">
+            <div class="news ">
+              <div class="container">
+                <h1 class="news-heading">Subscribe To Get The Latest <br> News About Us</h1>
+                <p class="des how-de">Receive trip ideas, destination guides & inspiration straight to your inbox <br> email below to
+                  get daliy update about us</p>
+          
+            
+                  <input type="email" maxlength="50" required placeholder="Enter your email address">
+                  <button class="bt">Subscribe</button>
+          
+                </form>
+              </div>
+            </div>
+          
+        </div>
 
     </div>
 
     <div class="footer-section">
+        <div class="section">
+            <img src="./images/logo.png" alt="logo" class="footer-logo">
+          
 
+
+
+        </div>
     </div>
 
     

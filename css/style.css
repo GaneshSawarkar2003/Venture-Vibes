@@ -436,22 +436,25 @@
         
         
         
+        
     }
-   /* .i1{
-        margin-left: 50px;
+    .i1{
+        float: left;
+        margin-left: -150px;
         
     }
     .i2{
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -150px;
+        margin-right: 50px;
     }  
     .i3{
        
         margin-right: 50px;
-    }*/
+        margin-left: 50px;
+    }
     .avatar {
         /* Size */
-        height: 35%;
+        height: 40%;
         width: 40%;
     }
     

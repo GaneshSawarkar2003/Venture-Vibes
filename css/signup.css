@@ -1,70 +1,98 @@
-.{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
-}
 body{
-    background: #dfe9f5;
+    font-family: 'Robot', sans-serif;
 }
-.wrapper{
-    width: 330px;
-    padding: 2rem 1rem;
-    margin: 5opx auto;
-    background-color: #fff;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+.signup-box{
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
 }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #666;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .bottom-text {
-    text-align: center;
-    margin-top: 20px;
-    color: #666;
-  }
-  
-  .bottom-text a {
-    color: #4CAF50;
-    text-decoration: none;
-  }
-  
-  .bottom-text a:hover {
-    text-decoration: underline;
-  }
-  
+.container{
+  width: 360px;
+  height: 380px;
+  margin: auto;
+  border-radius: 3px;
+  border: 1px solid black;
+  color: black;
+  margin-top: 250px;
+}
+
+.login-box{
+  margin: 20px;
+  text-align: center;
+}
+
+.account{
+  justify-content: center;
+  display: flex;
+  margin-left: 42px;
+}
+
+.or{
+  margin-left: 30px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 15px;
+}
+h4{
+  text-align: center;
+}
+form{
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label{
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+form input{
+  width: 100%;
+  padding:7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="button"]{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  padding: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+
+p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.para-2{
+  text-align: center;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.para-2 a{
+  color: #49c1a2;
+}
+
+.icon-img{
+  height: 60%;
+  width: 40%;
+
+}
+.icon{
+  display: flex;
+  justify-content: center;
+
+}
+

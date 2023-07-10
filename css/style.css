@@ -223,20 +223,25 @@
             text-decoration: none;
             margin-right: auto;
             margin-left: auto;
-            margin-top: 60px;
+            margin-top: 100px;
             width: 15%;
-            font-size: 15px;
+            font-size: 25px;
             font-weight: bold;
             font-family: 'Raleway', sans-serif;
             color: #405138;
             border: 1.5px solid rgb(0, 0, 0);
-            padding: 5px;
+            padding: 10px;
             padding-left: 15px;
             padding-right: 15px;
             border-radius: 40px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             outline:none;
             text-align: center;
+        }
+        .read-btn:hover{
+            background-color: #48b774;
+            color: white;
+            transition: 0.8s ease;
         }
 
         .places-descrpition{
@@ -350,21 +355,32 @@
 
       .half-container{
         display: inline-block;
+        margin-left: 100px;
+
         
 
       }
       .grid{
         display: flex;
         margin: 15px;
+        margin-left: 80px;
         padding: 5px;
         height: 200px;
         width: 300px;
-        background-color: #405138;
+        border-radius: 24px;
+        
         margin-left: 25px;
       }
       .grid-img{
         height: 200px;
-        width: 300px;
+        width: 400px;
+        border-radius: 24px;
+
+        
+      }
+      .gridimg{
+        height: 200px;
+        width: 800px;
       }
 
 
@@ -504,12 +520,63 @@
         background-color: #48b774;
         color: #fff;
       }
+      .bt:hover{
+        color: #48b774;
+        background-color:whitesmoke;
+      }
 
       .footer-section{
-       
+       height: 400px;
+       width: 100%;
+       display: flex;
+       background-color: #ccc;
+       margin-top: 50px;
+      
       }
       .section{
-       
+       margin-left: 100px;
+       margin-top: 25px;
+
         
       }
-      
+      .section h1{
+        font-size: 35px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        color: #333;
+      }
+
+      .foot-caption{
+        font-size: 35px;
+      }
+      .footer-logo{
+        margin-top: 25px;
+      }
+      .i1{
+        height: 15%;
+        width: 30%;
+        margin: 10px;
+        margin-left: 150px;
+      }
+      .useful-link{
+        margin-left: 300px;
+        margin-top : 100px;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+      }
+      .Follow-link{
+        margin-left: 250px;
+        margin-top : 100px;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+      }
+      .flink{
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        
+        color: #333;
+      }
+
+     

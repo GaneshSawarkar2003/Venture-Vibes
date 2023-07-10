@@ -43,7 +43,7 @@
         padding-left: 5px;
     }
     .container {
-    background-image: url(../images/blogbg.jpg);
+    background-image: url(../images/abtbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
@@ -55,7 +55,7 @@
 }
 
 .container h1 {
-    color:white ;
+    color: white;
     font-size: 80px;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
@@ -88,7 +88,6 @@
     font-weight: 200;
     font-size: 22px;
 }
-
 .country {
     text-align: center;
 }
@@ -98,10 +97,10 @@
     width: 400px;
     /* background-color: aqua; */
     padding: 15px;
-    /* margin: 10px; */
+    
+    /* margin: 10px;
     /* display: inline-block; */
     /* border-radius: 5px; */
-
 }
 
 a {
@@ -118,42 +117,39 @@ button {
     border: none;
     color: white;
 }
-.heading{
-    margin-top: 50px;
-    font-size: 55px;
-    font-weight: bolder;
-    font-family: 'Raleway', sans-serif;
-}
 
 .places h2 {
     margin-top: 50px;
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 .cards-India {
-    height: 600px;
-    width: 420px;
-    background-color: rgba(245, 195, 254, 0.39);
+    height: 500px;
+    width: 430px;
+    background-color: #e8f4e9;
     /* background-color: rgba(254, 195, 205, 0.39); */
     display: inline-block;
     margin: 20px;
-    border-radius: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+
+    border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    
 }
 
 .cards-India h1 {
-    color: rgb(128, 55, 0);
-    font-weight: bolder;
-    font-family: 'Raleway', sans-serif;
-
+    color: #405138;
+     font-weight: bold;
+            font-family: 'Raleway', sans-serif;
 }
 
 .cards p {
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
 }
 
 .image img {
@@ -161,14 +157,13 @@ button {
     background-size: 100% 100%;
     height: 230px;
     width: 400px;
-    border-radius: 8px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 5px;
 }
 
 .Subscribe {
     height: 250px;
     width: 88vw;
-   
+    
     padding: 20px;
     margin: 0 60px;
     display: flex;
@@ -178,14 +173,13 @@ button {
 }
 
 .Subscribe-heading {
-    color: #444;
+    color:#405138;
     margin: 0;
     margin-bottom: 10px;
-    margin-top: 40px;
     /* position: relative;
     top: -40px;
     left: 211px; */
-    font-size: 50px;
+    font-size: 30px;
     
 }
 .combo{
@@ -213,7 +207,7 @@ button {
 /* } */
 
 .btn:hover {
-    background-color: red;
+    background-color: green;
 }
 
 .heading {
@@ -375,8 +369,60 @@ button {
         height: 502px;
     }
 }
+.news {
+    padding: 4.8px 0 9.6px 0;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .news-heading {
+    font-size: 44px;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+  }
+  .news p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+    margin-top: 12px;
+    line-height: 1.8;
+  }
+  
+  input[type="email"] {
+    display: inline-block;
+    width: 60%;
+    padding: 18px 36px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 70px;
+    margin-top: 18px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06);
+  }
+  input,
+  input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 3;
+  }
+  
+  .bt {
+    margin-left: -160px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 20px;
+  
+    /* Only necessary for .btn */
+    border: none;
+    cursor: pointer;
+    background-color: #48b774;
+    color: #fff;
+  }
 
-
+  
 .footer-section{
     height: 400px;
     width: 100%;

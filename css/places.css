@@ -1,0 +1,539 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width:100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding:10px;
+    background-image: url(../images/mountains.png);
+}
+
+.content
+{
+    margin-top: 15vh;
+    color: rgb(255, 255, 255);
+    width:5px;
+    display: inline;
+    
+}
+.content h1
+{    
+  font-family: 'Playfair Display', serif;
+  margin-top:20vh;
+  font-size: 40px;
+  margin-left: 40%;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.form
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 25px;
+    width: 230px;
+
+}
+.Search-bar
+{
+    border: none;
+    background-color: none;
+    background: transparent;
+    text-align: center;
+    
+
+    
+}
+.btn{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.Header{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight:100;
+}
+.Header-1{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight:50;
+  margin-bottom: 10px;
+}
+.search-bar
+{
+border: none;
+background: transparent;
+margin-left: 90vh;
+}
+.item-1{        
+    background-image: url(../images/bankok.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+  }
+  .item-2{
+    background-image: url(../images/Dubai.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+  }
+  .item-3{
+    background-image: url(../images/sphinx-g91130a458_1280.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+  }
+  .item-4{
+    background-image: url(../images/paris\ eye.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+
+     }
+
+  .item-5
+  {
+    background-image: url(../images/disneyland-ga766de6bf_1280.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+    }
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .box-1{
+    display: flex;
+    flex-direction: row;
+  }
+  .content-img
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 60vh;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .card-image1
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/nature-g363fa410c_1280.jpg);
+     background-size: cover;
+  }
+  .card-image2
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Leh\ Ladakh.jpg);
+     background-size: cover;
+  
+  .card-image3
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Andaman.jpg);
+     background-size: cover;
+  }
+  .card-image4
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Goa.jpg);
+     background-size: cover;
+  }
+  .card-image5
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/udaipur-g0c9405d9e_1280.jpg);
+     background-size: cover;
+  }
+  
+  .card h2
+  {
+        padding: 10px;
+  }
+  .card p
+  {
+    padding: 10px ;
+  }
+  .card a
+  {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    display: block;
+    text-align: center;
+    margin: 17px 26px;
+    text-decoration: none;
+    
+  }
+  
+  .card:hover
+  {
+    background-color: rgb(131, 129, 127);
+    color: white;
+    transition: all 1sec ease;
+    cursor: pointer;
+
+  }
+  .tittle-2
+  {
+    margin: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+  .tittle-3
+  {
+    margin: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+  .Card{
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 60vh;
+    margin: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 15px;
+    border-color: black;
+
+  }
+  .card-image7
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/temple-g6edb90bd9_1280.jpg);
+     background-size: cover;
+     
+  }
+  .card-image8
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/kulu.jpg);
+     background-size: cover;
+     
+  }
+  .card-image9
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Andaman.jpg);
+     background-size: cover;
+     
+  }
+  
+  .Days
+  {
+     font-weight: 10;
+     margin-top: 7px;
+  }
+  .des
+  {
+     font-weight: 700;
+     margin-top: 7px;
+  }
+  .price
+  {
+    font-size: 15px;
+    margin-top: 17px;
+
+  }
+  .twin
+  {
+     font-size: 5px;
+     margin-top: 7px;
+  }
+  .Detail
+  {
+    background-color: white;
+    color: rgb(232, 82, 82);
+    font-weight: 700;
+    text-decoration: none;
+    left: 40%;
+  
+  }
+
+
+  .tittle-5
+       {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        margin-left: 35%;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0); 
+        margin-top: 10vh;
+        cursor: pointer;
+        
+       }
+       
+
+  .BAGG{
+    background-color: rgba(255, 255, 255, 0);
+    height: 65vh;
+    
+  }
+  .content-IMG
+  {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+  .CARD{
+    background-color: rgba(254, 254, 254, 0.751);
+    height: 50vh;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+    
+  }
+ 
+  .CARD-PHOTO-01
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/pamukalle.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-01:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+
+  .CARD-PHOTO-02
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/beach-g154bec4c4_1280.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-02:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+
+  .CARD-PHOTO-03
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/barcelona.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-03:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+  .CARD-PHOTO-04
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/bali.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+  
+  .Special-btn{
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+  .CARD-PHOTO-05
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/england.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-05:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .Special-btn
+  {
+    background-color: white;
+    color: rgb(232, 82, 82);
+    font-weight: 700;
+    text-decoration: none;
+    left: 40%;
+  
+  }

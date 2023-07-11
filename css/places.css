@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins:wght@100;200;300;500&display=swap');
+
+ .navbar {
+        text-align: center;
+        margin-top: 32px; 
+     
+    }
+
+    .navbar a {
+        color: #526b63;
+       
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 25px;
+        margin-right: 25px ;
+        padding-bottom: 7px; 
+
+    }
+
+    .navbar a:hover {
+        border-bottom: 1px solid whitesmoke;
+        transition: all 0.5s ease;
+        font-size: 18px; 
+    }
+    .site-name, site-sub-name{
+        margin-left: 8px;
+        margin-top: -20px;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1.5px;
+    }
+    .site-name{
+        color:#405138 ;
+    }
+    .site-sub-name{
+        color: #405138;
+        padding-left: 5px;
+    }
+    .container {
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color:white ;
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+.head {
+    
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+.blog-intro{
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 60px;
+    
+}
+.bintro{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.bcaption{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.content
+{
+    margin-top: 9vh;
+    margin-left: 150px;
+    display: inline;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;    
+}
+.content h1
+{    
+  
+  color: white;
+  font-size: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  
+  
+  margin-left: 40%;
+  margin-bottom: 20px;
+  
+}
+
+.form
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 55px;
+    width: 230px;
+
+}
+.search-bar
+{
+    border: none;
+    background-color: none;
+    background: transparent;
+    text-align: center;
+    height: 55px;
+    width: 750px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    
+
+    
+}
+.btn{
+    background-color: aqua;
+    border-radius: 9px;
+    height:50px;
+    width: 600px ;
+    font-size: 15px;
+
+}
+.Header{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight:100;
+}
+.Header-1{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight:50;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.search-bar
+{
+border: none;
+background: transparent;
+margin-left: 90vh;
+}
+.item-1{        
+    background-image: url(../images/bankok.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+  }
+  .item-2{
+    background-image: url(../images/Dubai.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+  }
+  .item-3{
+    background-image: url(../images/sphinx-g91130a458_1280.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+  }
+  .item-4{
+    background-image: url(../images/paris\ eye.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+
+     }
+
+  .item-5
+  {
+    background-image: url(../images/disneyland-ga766de6bf_1280.jpg);
+    height: 50vh;
+    width: 60vh;
+    margin: 15px;
+    font-size: 50px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 20px;
+    
+    }
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .box-1{
+    display: flex;
+    flex-direction: row;
+  }
+  .content-img
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 60vh;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .card-image1
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/nature-g363fa410c_1280.jpg);
+     background-size: cover;
+  }
+  .card-image2
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Leh\ Ladakh.jpg);
+     background-size: cover;
+  }
+  
+  .card-image3
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Andaman.jpg);
+     background-size: cover;
+  }
+  .card-image4
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Goa.jpg);
+     background-size: cover;
+  }
+  .card-image5
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/udaipur-g0c9405d9e_1280.jpg);
+     background-size: cover;
+  }
+  
+  .card h2
+  {
+        padding: 10px;
+  }
+  .card p
+  {
+    padding: 10px ;
+  }
+  .card a
+  {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    display: block;
+    text-align: center;
+    margin: 17px 26px;
+    text-decoration: none;
+    
+  }
+  
+  .card:hover
+  {
+    background-color: rgb(131, 129, 127);
+    color: white;
+    transition: all 1sec ease;
+    cursor: pointer;
+
+  }
+  .tittle-2
+  {
+    margin: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+  .tittle-3
+  {
+    margin: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+  .Card{
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 60vh;
+    margin: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 15px;
+    border-color: black;
+
+  }
+  .card-image7
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/temple-g6edb90bd9_1280.jpg);
+     background-size: cover;
+     
+  }
+  .card-image8
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/kulu.jpg);
+     background-size: cover;
+     
+  }
+  .card-image9
+  {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 15px;
+     background-image: url(../images/Andaman.jpg);
+     background-size: cover;
+     
+  }
+  
+  .Days
+  {
+     font-weight: 10;
+     margin-top: 7px;
+  }
+  .des
+  {
+     font-weight: 700;
+     margin-top: 7px;
+  }
+  .price
+  {
+    font-size: 15px;
+    margin-top: 17px;
+
+  }
+  .twin
+  {
+     font-size: 5px;
+     margin-top: 7px;
+  }
+  .Detail
+  {
+    background-color: white;
+    color: rgb(232, 82, 82);
+    font-weight: 700;
+    text-decoration: none;
+    left: 40%;
+  
+  }
+
+
+  .tittle-5
+       {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        margin-left: 35%;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0); 
+        margin-top: 10vh;
+        cursor: pointer;
+        
+       }
+       
+
+  .BAGG{
+    background-color: rgba(255, 255, 255, 0);
+    height: 65vh;
+    
+  }
+  .content-IMG
+  {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+  .CARD{
+    background-color: rgba(254, 254, 254, 0.751);
+    height: 50vh;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+    
+  }
+ 
+  .CARD-PHOTO-01
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/pamukalle.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-01:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+
+  .CARD-PHOTO-02
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/beach-g154bec4c4_1280.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-02:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+
+  .CARD-PHOTO-03
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/barcelona.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-03:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+  .CARD-PHOTO-04
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/bali.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+  
+  .Special-btn{
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+  .CARD-PHOTO-05
+  {
+     background-color: rgb(138, 205, 205);
+     color: white;
+     height: 300px;
+     margin-bottom: 15px;
+     background-image: url(../images/england.jpg);
+     background-size: cover;
+     border-radius: 5px;
+  }
+  .card h4
+  {
+        padding: 20px;
+        padding-top: 10px;
+        justify-content: center;
+  }
+
+  .content-IMG .CARD-PHOTO-05:hover
+  {
+    top: -50px;
+    
+    transition: 1s;
+    scale: 1.2;
+  }
+  .Header-40
+  {
+    text-align: center;
+    padding-top:33vh;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .Special-btn
+  {
+    background-color: white;
+    color: rgb(232, 82, 82);
+    font-weight: 700;
+    text-decoration: none;
+    left: 40%;
+  
+  }
+  
+  
+  .footer-section{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #ccc;
+    margin-top: 150px;
+   
+   }
+   .section{
+    margin-left: 100px;
+    margin-top: 25px;
+
+     
+   }
+   .section h1{
+     font-size: 35px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: bolder;
+     color: #333;
+   }
+
+   .foot-caption{
+     font-size: 35px;
+   }
+   .footer-logo{
+     margin-top: 25px;
+   }
+   .i1{
+     height: 15%;
+     width: 30%;
+     margin: 10px;
+     margin-left: 150px;
+   }
+   .useful-link{
+     margin-left: 300px;
+     margin-top : 100px;
+     font-size: 15px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+   }
+   .Follow-link{
+     margin-left: 250px;
+     margin-top : 100px;
+     font-size: 15px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+   }
+   .flink{
+     font-size: 25px;
+     font-family: 'Raleway', sans-serif;
+     
+     color: #333;
+   }
